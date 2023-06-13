@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/_300sdp"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="@dimen/_300sdp"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="@dimen/_10sdp"
+        app:cardElevation="@dimen/_6sdp"
+        app:cardUseCompatPadding="true">
+
+        <EditText
+            android:id="@+id/edit_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Title"
+            android:background="@null"
+            android:layout_margin="@dimen/_10sdp"/>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="@dimen/_300sdp"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="@dimen/_10sdp"
+        app:cardElevation="@dimen/_6sdp"
+        app:cardUseCompatPadding="true">
+
+        <EditText
+            android:id="@+id/edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Text...................."
+            android:lines="5"
+            android:gravity="top"
+            android:background="@null"
+            android:layout_margin="@dimen/_10sdp"/>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <Button
+        android:id="@+id/btnsubmit"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="@dimen/_48sdp"
+        android:text="submit"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_20sdp"
+        android:layout_gravity="center"
+        android:backgroundTint="#957BC5"
+        android:layout_margin="@dimen/_10sdp"/>
+
+
+    <Button
+        android:id="@+id/btncolour"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="@dimen/_48sdp"
+        android:text="select colour"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_20sdp"
+        android:layout_gravity="center"
+        android:backgroundTint="#957BC5"
+        android:layout_margin="@dimen/_10sdp"/>
+
+
+
+
+
+
+</LinearLayout>
